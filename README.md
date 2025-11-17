@@ -147,6 +147,10 @@ nolimit-ds-test--Rizqi-Fajar-/
 ├── .gitattributes
 ├── requirements.txt
 ├── README.md
+├── demo1.png
+├── demo2.png
+├── pipeline.png
+├── streamlit_app.py
 └── train.ipynb
 ```
 
