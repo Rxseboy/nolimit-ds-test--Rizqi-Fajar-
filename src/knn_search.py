@@ -30,14 +30,14 @@ def fit_knn(embeddings: np.ndarray, n_neighbors: int = 5):
 
 
 
-def save_knn_index(nn, path: str = paths.KNN_FILE):
+def save_knn_index(nn, path: str = paths.KNN_INDEX_FILE):
     import joblib
     joblib.dump(nn, path)
 
 
 
 
-def load_knn_index(path: str = paths.KNN_FILE):
+def load_knn_index(path: str = paths.KNN_INDEX_FILE):
     import joblib
     return joblib.load(path)
 
