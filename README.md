@@ -1,4 +1,4 @@
-# Tweet Sentiment Classifier — Rizqi Fajar  
+# Tweet Sentiment Classifier
 Fine-tuned Tweet Sentiment Classification using Hugging Face + Streamlit
 
 <p align="left">
