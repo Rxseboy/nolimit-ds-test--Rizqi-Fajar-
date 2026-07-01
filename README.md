@@ -2,8 +2,8 @@
 Fine-tuned Tweet Sentiment Classification using Hugging Face + Streamlit
 
 <p align="left">
-  <img src="https://img.shields.io/github/repo-size/Rxseboy/nolimit-ds-test--Rizqi-Fajar-?color=blue" />
-  <img src="https://img.shields.io/github/last-commit/Rxseboy/nolimit-ds-test--Rizqi-Fajar-" />
+  <img src="https://img.shields.io/github/repo-size/Rxseboy/Fine-tuned-Tweet-Sentiment-Classification-using-Hugging-Face-Streamlit?color=blue" />
+  <img src="https://img.shields.io/github/last-commit/Rxseboy/Fine-tuned-Tweet-Sentiment-Classification-using-Hugging-Face-Streamlit" />
   <img src="https://img.shields.io/badge/HuggingFace-Transformers-yellow" />
   <img src="https://img.shields.io/badge/Model-CardiffNLP%20RoBERTa-blueviolet" />
   <img src="https://img.shields.io/badge/Streamlit-App-red" />
@@ -75,7 +75,7 @@ This project includes a **hybrid transformer + vector similarity pipeline**:
 
 ### 🔹 Embeddings (`embeddings.py`)
 - Extracts dense sentence embeddings  
-- Saves vectors → `train_embedding.npy`  
+- Saves vectors → `train_embeddings.npy`
 - Used for similarity search & interpretability  
 
 ### 🔹 KNN Index (`knn_search.py`)
@@ -111,7 +111,7 @@ This project includes a complete end-to-end pipeline for sentiment classificatio
 ## 📁 Repository Structure  
 
 ```
-nolimit-ds-test--Rizqi-Fajar-/
+Fine-tuned-Tweet-Sentiment-Classification-using-Hugging-Face-Streamlit/
 │
 ├── src/
 │   ├── __pycache__/
@@ -128,10 +128,10 @@ nolimit-ds-test--Rizqi-Fajar-/
 │   ├── knn_index.pkl
 │   ├── merges.txt
 │   ├── model.safetensors
-│   ├── special_tokens_maps.json
+│   ├── special_tokens_map.json
 │   ├── tokenizer.json
 │   ├── tokenizer_config.json
-│   ├── train_embedding.npy
+│   ├── train_embeddings.npy
 │   └── vocab.json
 │
 ├── dataset/
@@ -160,8 +160,8 @@ nolimit-ds-test--Rizqi-Fajar-/
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/Rxseboy/nolimit-ds-test--Rizqi-Fajar-.git
-cd nolimit-ds-test--Rizqi-Fajar-
+git clone https://github.com/Rxseboy/Fine-tuned-Tweet-Sentiment-Classification-using-Hugging-Face-Streamlit.git
+cd Fine-tuned-Tweet-Sentiment-Classification-using-Hugging-Face-Streamlit
 ```
 
 ### 2. Create virtual environment (optional)
